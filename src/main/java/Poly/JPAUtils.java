@@ -19,7 +19,7 @@ public class JPAUtils {
 	public static void setup() {
 		// TODO Auto-generated method stub
 		if(facrory==null || !facrory.isOpen()) {
-			facrory = Persistence.createEntityManagerFactory("ProjectLab6");
+			facrory = Persistence.createEntityManagerFactory("ProjectFinal");
 			em = facrory.createEntityManager();
 		}	
 	}
