@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/ProjectFinal/account/sign-up" method="post">
+	<form action="/Assignment_Java4/account/sign-up" method="post">
 		<input name="username"> <input name="passwords" type="password">
 		<input name="fullname"> <input name="email"> <input
 			name="admin" type="hidden" value="false">

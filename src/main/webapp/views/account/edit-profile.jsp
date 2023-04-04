@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/AssignmentJava4/account/edit-profile" method="post">
+	<form action="/Assignment_Java4/account/edit-profile" method="post">
 		<input name="username" value="${user.username}"> <input name="passwords"
 			value="${user.passwords}"><input name="fullname"
 			value="${user.fullname}"><input name="email"

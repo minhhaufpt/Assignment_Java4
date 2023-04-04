@@ -13,7 +13,7 @@
 	<form method="post">
 		<div>
 			<input placeholder="Username" type="text" name="username" value="">
-			<button formaction="/AssignmentJava4/find_user">sreach</button>
+			<button formaction="/Assignment_Java4/find_user">sreach</button>
 		</div>
 		<h5>${alert}</h5>
 	</form>
@@ -47,7 +47,7 @@
 	<form method="post">
 		<div>
 			<input placeholder="Title" type="text" name="title" value="">
-			<button formaction="/AssignmentJava4/find_title">sreach</button>
+			<button formaction="/Assignment_Java4/find_title">sreach</button>
 		</div>
 		<h5>${alert2}</h5>
 	</form>
@@ -77,7 +77,7 @@
 	<form method="post">
 		<div>
 			<input placeholder="Video_ID" type="number" name="videoid" value="">
-			<button formaction="/AssignmentJava4/find_videoid">sreach</button>
+			<button formaction="/Assignment_Java4/find_videoid">sreach</button>
 		</div>
 		<h5>${alert3}</h5>
 	</form>
@@ -103,7 +103,7 @@
 	</table>
 
 	<hr>
-	<form method="post" action="/AssignmentJava4/find_videolike">
+	<form method="post" action="/Assignment_Java4/find_videolike">
 		<div>
 			<input type="radio" name="favorite" value="true"> Favorite <input
 				type="radio" name="favorite" value="false"> Not favorite
@@ -160,7 +160,7 @@
 	<form method="post">
 		<div>
 			<input placeholder="keyword" type="text" name="keyword" value="">
-			<button formaction="/AssignmentJava4/find_keyvideo">sreach</button>
+			<button formaction="/Assignment_Java4/find_keyvideo">sreach</button>
 		</div>
 		<h5>${alert7}</h5>
 	</form>
@@ -189,7 +189,7 @@
 	<form method="post">
 		<div>
 			<input placeholder="Username" type="text" name="keyuser" value="">
-			<button formaction="/AssignmentJava4/find_keyuser">sreach</button>
+			<button formaction="/Assignment_Java4/find_keyuser">sreach</button>
 		</div>
 		<h5>${alert7}</h5>
 	</form>
@@ -221,7 +221,7 @@
 		<div>
 			<input placeholder="Form Date" type="date" name="formdate" value="">
 			<input placeholder="To Date" type="date" name="todate" value="">
-			<button formaction="/AssignmentJava4/find_forDate">sreach</button>
+			<button formaction="/Assignment_Java4/find_forDate">sreach</button>
 		</div>
 		<h5>${alert7}</h5>
 	</form>
@@ -263,7 +263,7 @@
 			10 <input placeholder="" type="checkbox" name="month" value="11">
 			11 <input placeholder="" type="checkbox" name="month" value="12">
 			12 <br>
-			<button formaction="/AssignmentJava4/find_month">sreach</button>
+			<button formaction="/Assignment_Java4/find_month">sreach</button>
 		</div>
 		<h5>${alert7}</h5>
 	</form>
@@ -319,7 +319,7 @@
 			<option value="2023">2023</option>
 			<option value="2024">2024</option>
 		</select>
-		<button formaction="/AssignmentJava4/report_year">sreach</button>
+		<button formaction="/Assignment_Java4/report_year">sreach</button>
 	</form>
 	<table border="1">
 		<thead>

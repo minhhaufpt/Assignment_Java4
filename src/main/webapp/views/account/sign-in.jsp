@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/ProjectFinal/account/sign-in" method="post">
+	<form action="/Assignment_Java4/account/sign-in" method="post">
 		<input name="username"> <input name="password" type="password">	
 		<button>Login</button>
 	</form>

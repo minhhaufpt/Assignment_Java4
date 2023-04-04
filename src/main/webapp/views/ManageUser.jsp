@@ -10,9 +10,9 @@
 </style>
 </head>
 <body>
-	<c:url var="url" value="/AssignmentJava4/user">
+	<c:url var="url" value="/Assignment_Java4/user">
 	</c:url>
-	<c:url var="url1" value="/AssignmentJava4/user1">
+	<c:url var="url1" value="/Assignment_Java4/user1">
 	</c:url>
 	<form method="post">
 		<div>
@@ -34,10 +34,10 @@
 		<hr>
 
 		<div>
-			<button formaction="/AssignmentJava4/user/create">create</button>
-			<button formaction="/AssignmentJava4/user/update">update</button>
-			<button formaction="/AssignmentJava4/user/delete">delete</button>
-			<a href="/AssignmentJava4/reset">reset</a>
+			<button formaction="/Assignment_Java4/user/create">create</button>
+			<button formaction="/Assignment_Java4/user/update">update</button>
+			<button formaction="/Assignment_Java4/user/delete">delete</button>
+			<a href="/Assignment_Java4/reset">reset</a>
 		</div>
 	</form>
 
@@ -60,7 +60,7 @@
 					<th>${user.fullname}</th>
 					<th>${user.email}</th>
 					<th>${user.admin?'Admin':'User'}</th>
-					<th><a href="/AssignmentJava4/user/edit/id?id=${user.username}">edit</a></th>
+					<th><a href="/Assignment_Java4/user/edit/id?id=${user.username}">edit</a></th>
 				</tr>
 			</c:forEach>
 
