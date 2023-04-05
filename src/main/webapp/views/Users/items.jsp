@@ -10,8 +10,8 @@
 	<div class="card float-start" style="width: 18rem;">
 		<img src="${param.poster}" class="card-img-top" alt="No found image">
 		<div class="card-body">
-			<h5 class="card-title">${param.tittle}</h5>
-			<p class="card-text">Conten</p>
+			<h5 class="card-title">${param.title}</h5>
+			<p class="card-text">Content</p>
 			<a href="#" class="btn btn-primary" style="margin-right: 20px">Like</a>
 			<a href="#" class="btn btn-info">Share</a>
 		</div>
