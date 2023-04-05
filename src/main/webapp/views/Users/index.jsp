@@ -22,15 +22,24 @@
 </head>
 <body>
 	<%@include file="header.jsp"%>
-	<div style="width: 60rem;">
-		<c:forEach var="i" begin="1" end="6">
+	<div style="width: 54rem;">
+		<c:forEach var="video" items="videos" begin="1" end="6">
 			<jsp:include page="items.jsp">
 				<jsp:param
-					value="https://i.pinimg.com/564x/44/11/be/4411be0b4621840c94fa329fb0ee5e8d.jpg"
+					value="${video.poster}"
 					name="poster" />
-				<jsp:param value="Anime" name="tittle" />
+				<jsp:param value="${video.title}" name="title" />
 			</jsp:include>
 		</c:forEach>
+		<br>
+		<div class="text-center">
+			<button class="btn btn-success m-3">First</button>
+			<button class="btn btn-success m-3">Last</button>
+			<button class="btn btn-success m-3">Next</button>
+			<button class="btn btn-success m-3">End</button>
+		</div>
 	</div>
+
+
 </body>
 </html>
