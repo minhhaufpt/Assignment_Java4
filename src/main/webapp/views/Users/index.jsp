@@ -23,7 +23,7 @@
 <body>
 	<%@include file="header.jsp"%>
 	<div style="width: 54rem;">
-		<c:forEach var="video" items="videos" begin="1" end="6">
+		<c:forEach var="video" items="${videos}" begin="1" end="6">
 			<jsp:include page="items.jsp">
 				<jsp:param
 					value="${video.poster}"
